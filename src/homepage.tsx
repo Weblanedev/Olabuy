@@ -153,13 +153,13 @@ const Homepage = () => {
     <p data-aos="fade-left">
     We believe in the power of collaboration and teamwork, working closely with our sellers, partners, and employees to achieve shared goals and objectives.
     </p>
-    <a
-      href="/products"
+        <Link
+      to="/products"
       className="hero-btn3"
       data-aos="fade-down"
     >
       Shop Now
-    </a>
+    </Link>
   </section>
   <section className="producea">
     <div className="rowssa">
