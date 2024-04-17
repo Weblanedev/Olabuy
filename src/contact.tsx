@@ -165,7 +165,7 @@ const Contact = () => {
                 Call Us
               </h4>
               <p className="text-green-500 leading-[16px]">
-                +234-818-566-4805
+                +234-817-530-6210
               </p>
             </div>
           </div>
@@ -176,7 +176,7 @@ const Contact = () => {
                 Mail Us
               </h4>
               <p className="text-green-500 leading-[16px]">
-              support@bronzetent.com
+            support@kagontech.com
               </p>
             </div>
           </div>
