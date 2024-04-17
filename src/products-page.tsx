@@ -129,7 +129,7 @@ const ProductsPage = () => {
               <h5>Jeans</h5>
               <p>$40.34</p>
               <p className="cart-btn" onClick={() => purchase("Jeans", "40.34")}>
-                <a href="../coming soon/comingsoon.html">Purchase</a>
+                <p>Purchase</p>
               </p>
             </div>
           </div>
@@ -141,7 +141,7 @@ const ProductsPage = () => {
               <h5>Work Shoes</h5>
               <p>$95.34</p>
               <p className="cart-btn" onClick={() => purchase("Work Shoes", "95.34")}>
-                <a href="../coming soon/comingsoon.html">Purchase</a>
+                <p>Purchase</p>
               </p>
             </div>
           </div>
@@ -153,7 +153,7 @@ const ProductsPage = () => {
               <h5>Philips Iron</h5>
               <p>$127.89</p>
               <p className="cart-btn" onClick={() => purchase("Philips Iron", "127.89")}>
-                <a href="../coming soon/comingsoon.html">Purchase</a>
+                <p>Purchase</p>
               </p>
             </div>
           </div>
