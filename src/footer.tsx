@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
 
       <p className="text-[12px] leading-[24px] text-center text-green-100/50">
-        © 2023 Bronzetent Network Technologies Limited. All Rights Reserved Apollo
+        ©Kagon Technologies Limited. All Rights Reserved
       </p>
 
  <div className="flex items-center justify-center">
