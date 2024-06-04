@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import donate from "./assets/donate.jpg";
 
 const Footer = () => {
   return (
@@ -38,16 +37,8 @@ const Footer = () => {
       </div>
 
       <p className="text-[12px] leading-[24px] text-center text-green-100/50">
-        ©Kagon Technologies Limited. All Rights Reserved
+        ©OLABUY International LTD. All Rights Reserved
       </p>
-
- <div className="flex items-center justify-center">
- <Link
-            to="/donation"
-             className="text-white text-xl flex gap-[20px]">
-        Send someone a gift card today <img src={donate} className="w-32"></img>
-      </Link>
- </div>
     </div>
   );
 };

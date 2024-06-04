@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useModals } from "./useModal";
 import ShowContactModal from "./show-contact";
-import phoneIcon from "./assets/phone.png";
-import mailIcon from "./assets/mail.png";
-import locationIcon from "./assets/location.png";
+// import phoneIcon from "./assets/phone.png";
+// import mailIcon from "./assets/mail.png";
+// import locationIcon from "./assets/location.png";
 
 const Contact = () => {
   useEffect(() => {
@@ -75,7 +75,7 @@ const Contact = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-green-950">
             Contact Us
           </h1>
-          <p>Find the best way to get help and connect with Kagon</p>
+          <p>Find the best way to get help and connect with us</p>
         </div>
       </section>
 
@@ -154,7 +154,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-10 items-start justify-center max-w-[300p x] md:w-full">
+        {/* <div className="flex flex-col gap-10 items-start justify-center max-w-[300p x] md:w-full">
           <div className="flex flex-col gap-2.5 text-[#181616] items-center justify-center my-[34px]">
             <h2 className="text-[35px] font-medium">Other ways to reach us:</h2>
           </div>
@@ -191,7 +191,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <ShowContactModal

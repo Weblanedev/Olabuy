@@ -1,4 +1,4 @@
-import { useNavigate  } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import { useEffect } from "react";
 
@@ -16,26 +16,26 @@ const ProductsPage = () => {
 
   const purchase = (name: any, price: any) => {
     const product = {
-        name,
-        price,
+      name,
+      price,
     }
     localStorage.setItem("item", JSON.stringify(product))
     navigate("/billing");
-}
+  }
   return (
     <div className="w-full h-full flex flex-col pt-[66px] md:pt-[80px]">
-       <section className="product">
-    <div className="text-box">
-      <h1>Premium and affordable products</h1>
-      <p>
-      Our farm strictly combines the traditions of organic farming with the latest innovations to make our products healthy and safe for the clients.
-      </p>
-    </div>
-  </section>
+      <section className="product">
+        <div className="text-box">
+          <h1>Premium and affordable products</h1>
+          <p>
+            Choose from a wide range of our products
+          </p>
+        </div>
+      </section>
 
-      <section className="flex bg-white w-full flex-col px-10 md:px-[130px] items-center justify-center md:justify-between gap-5 pb-14 md:pb-20"> 
-      <h1 className='text-4xl py-[100px] font-[600] text-[chocolate]'>All Products</h1>
-       <div data-aos="fade-up" className="grid grid-cols-4 gap-[50px]">
+      <section className="flex bg-white w-full flex-col px-10 md:px-[130px] items-center justify-center md:justify-between gap-5 pb-14 md:pb-20">
+        <h1 className='text-4xl py-[100px] font-[600] text-[chocolate]'>All Products</h1>
+        <div data-aos="fade-up" className="grid grid-cols-4 gap-[50px]">
           {/* {[1,2,4,4,4,4,4,4].map((genre) => (
             <div className="col-4">
               <img src="images/product-6-164x120.png" alt="" />
